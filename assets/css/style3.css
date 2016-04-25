@@ -97,8 +97,8 @@ display: none;
 }
 
 .pin#germany {
-	top: 150px;
-	left: 485px;
+	top: 160px;
+	left: 490px;
 	position: absolute;
 }
 
@@ -122,7 +122,7 @@ display: none;
 
 .pin#france {
 	top: 170px;
-	left: 470px;
+	left: 460px;
 	position: absolute;
 }
 
@@ -138,6 +138,11 @@ display: none;
 	position: absolute;
 }
 
+.pin#denmark {
+	top: 135px;
+	left: 477px;
+	position: absolute;
+}
 /* Description Boxes*/
 
 .description-box-thai{
@@ -390,4 +395,32 @@ display: none;
 	left: 55px;
 	display: none;
 	z-index: 200;
+}
+
+.description-box-den{
+	border-style: solid;
+	border-width: 10px 10px 120px 10px;
+	border-color: white;
+	height: 250px;
+	width: 400px;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	-moz-transform: translateX(-50%) translateY(-50%);	
+	transform: translateX(-50%) translateY(-50%);
+	position: absolute;
+	float: right;
+	display: none;
+	z-index: 200;
+}
+
+.text-den {
+	position: relative;
+	font-family:'Shadows Into Light', cursive;
+	font-size: 30px;
+	letter-spacing: 3px;
+	left: 135px;
+	display: none;
+	z-index: 200;
+	top: 10px;
 }

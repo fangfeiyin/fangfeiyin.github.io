@@ -55,6 +55,12 @@ $(document).ready(function() {
 		$(".overlay").fadeIn(500);
 	})
 
+	$(".pin#denmark").click(function(){
+		$(".description-box-den").fadeIn(500);
+		$(".text-den").fadeIn(500);
+		$(".overlay").fadeIn(500);
+	})
+
 	$(".pin").click(function(event){
 		event.stopPropagation();
 
@@ -95,6 +101,8 @@ $(document).ready(function() {
 		$(".text-cali").fadeOut(500);
 		$(".description-box-van").fadeOut(500);
 		$(".text-van").fadeOut(500);
+		$(".description-box-den").fadeOut(500);
+		$(".text-den").fadeOut(500);
 	})
 
 $(".pin").hover(function(){
