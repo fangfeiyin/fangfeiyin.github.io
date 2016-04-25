@@ -92,6 +92,7 @@ z-index: 100;
 	height: 100%;
 	margin-left: 0px;
 	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
 }
 
 .carousel-item {
@@ -113,6 +114,7 @@ z-index: 100;
     border-radius: 50%;
     border: 1px solid #fff;
     -webkit-transition: all 0.3s;
+   	-moz-transition: all 0.3s; 
 }
 
 #carousel-next {
@@ -127,4 +129,5 @@ z-index: 100;
     border-radius: 50%;
     border: 1px solid #fff;
     -webkit-transition: all 0.3s;
+   	-moz-transition: all 0.3s;
 }
