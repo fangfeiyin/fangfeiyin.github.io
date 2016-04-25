@@ -1,0 +1,48 @@
+body {
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+.scaled-wh {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+.overlay {
+width: 100%;
+height: 100%;
+position: absolute;
+background-color: rgba(0,0,0,.2);
+z-index: 100;
+}
+
+.background-container {
+	height: 100vh;
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+	z-index: 100;
+}
+
+.bg-img {
+	position: absolute;
+}
+
+.welcome-box {
+	font-size: 60px;
+	color: white;
+	position: absolute;
+	z-index: 500;
+	left: 50%;
+	top: 50%;
+	transform: translateY(-50%) translateX(-50%);
+	border: 5px solid white;
+	padding: 15px;
+	font-weight: 400;
+	font-family: 'Raleway', sans-serif;
+	letter-spacing: 3px;
+}
