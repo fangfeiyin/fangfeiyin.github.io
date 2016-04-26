@@ -78,6 +78,7 @@ display: none;
 	float: left;
 	-webkit-transition: linear 0.2s;
 	-moz-transition: linear 0.2s;	
+	cursor: pointer;
 }
 
 .photo-active {

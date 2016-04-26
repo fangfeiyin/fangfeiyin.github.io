@@ -82,6 +82,7 @@ display: none;
 .pin {
 	height: 40px;
 	width: 20px;
+	cursor: pointer;
 }
 
 .pin#thai {
